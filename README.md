@@ -28,7 +28,7 @@ Below is short explanation of remaining files in the project folder.
 ├── main
 │   ├── CMakeLists.txt
 │   ├── component.mk           Component make file
-│   └── hello_world_main.c
+│   └── motor_driver_drv8833.c
 ├── Makefile                   Makefile used by legacy GNU Make
 └── README.md                  This is the file you are currently reading
 ```
@@ -50,3 +50,6 @@ Please use the following feedback channels:
 * For a feature request or bug report, create a [GitHub issue](https://github.com/espressif/esp-idf/issues)
 
 We will get back to you as soon as possible.
+
+References:
+* [Motor Driver drv8833 inspiration](https://github.com/Roger-random/ESP32Tests/tree/4dea2aafa04f983b8d4818b09d49e5d53878b2e6/FreeRTOS_Play/src)
